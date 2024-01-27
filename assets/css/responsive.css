@@ -1,0 +1,171 @@
+@media screen and (max-width:1200px)
+{
+
+    /*-- home css--*/
+     .home .home-banner-1,
+     .home .home-banner-2
+     {
+
+          background-position: 65% center;
+          min-height: 550px;
+
+     }
+     .home .home-banner .home-banner-text
+     {
+
+        transform: translate(-92% ,-50%);
+     }
+       /* css for 65%off */
+       .up_to_off
+       {
+        .product .up_to_off
+        {
+            position: relative;
+        }
+        .product .up_to_off::before
+        {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .product .up_to_off img
+        {
+            transition: 0.5s;
+        }
+        .product .up_to_off:hover img
+        {
+            transform: scale(1.1);
+        }
+        .product .up_to_content h2
+        {
+            color: #FFFF;
+            font-size: 1.625rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+       }
+
+     /* offer css */
+     .offers .offer-box .offer-info .heading-bigger
+     {
+        font-size: 3rem;
+     }
+    /*-- special css--*/
+    .special .countdown-container .countdown-counter li
+    {
+       padding: 0.5rem 0.5rem;
+       font-size: 12px;
+
+    }
+    .special .countdown-container .countdown-counter span
+    {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:991px)
+{
+    /*-- home css--*/
+      .home .home-banner .home-banner-text
+      {
+          transform: translate(-70%, -52%);
+      }
+     
+     
+    /*-- special css--*/
+
+     /*-- Testimonial css--*/   
+
+
+}
+
+@media(max-width:767px)
+{
+   /*-- home css--*/
+      .home .home-banner-1,
+      .home .home-banner-2
+      {
+          background-position: center;
+          min-height: 450px;
+      }
+
+      .home .home-banner .home-banner-text
+      {
+          width: 100%;
+          text-align: center;
+          transform: translate(-50%,-50%);
+      }
+      .home .home-banner .home-banner-text h1
+      {
+          font-size: 2rem;
+
+      }
+      .home .home-banner .home-banner-text .home-banner-2
+      {
+          font-size: 1.2rem;
+          
+      }
+      .home .home-banner .home-banner-text .btn-danger
+      {
+          padding:0.5rem 1.5rem
+      }
+      .home.slider-icon
+      {
+          font-size: 2rem;
+      }
+
+    /*-- special css--*/
+     
+     /*-- Testimonial css--*/  
+     
+     .testimonial .testimonial-wrapper
+     {
+        padding: 1rem;
+     }
+      .testimonial .carousel-control-prev,
+      .testimonial .carousel-control-next
+      {
+        display: none;
+      }
+
+}
+@media(max-width:330px)
+{
+      /*-- home css--*/
+       .home .home-banner .home-banner-text h1
+       {
+          font-size: 1.3rem;
+       }
+       .home .home-banner .home-banner-text h2
+       {
+          font-size: 1rem;
+       }
+       .home .home-banner .home-banner-text .btn-danger
+       {
+            font-size: 0.7rem;
+       }
+      
+     
+}
+       /*--  Product css--*/
+
+      @media(max-width:1030px)
+     {
+            .product .up_to_content h2
+         {
+              font-size: 15px;
+         }
+     } 
